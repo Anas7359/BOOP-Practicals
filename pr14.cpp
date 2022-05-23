@@ -7,14 +7,14 @@ class convert{
 	public: 
 		
 		void getdata(){
-			cout<<"Enter value in Centimeter";
+			cout<<"Enter value in Centimeter: ";
 			cin>>cm;
 		}
 		void setdata(){
 			inch = cm * 0.393701;
 			feet = cm/30.48;
-			meter = cm*100;
-			kilometer = cm*1000;
+			meter = cm/100;
+			kilometer = cm/100000;
 		}
 		void display(){
 			cout<<"Inches: "<<endl;
