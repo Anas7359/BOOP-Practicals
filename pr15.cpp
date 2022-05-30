@@ -6,7 +6,11 @@ using namespace std;
      float cost;
      public:
         void getdata();
-        void putdata();
+        void putdata()
+         {
+               cout<<"Item Number: "<<number<<endl;
+               cout<<"Item Price: "<<cost<<endl;
+         }
  };
 
  void item::getdata(){
@@ -14,12 +18,6 @@ using namespace std;
      cin>>number;
      cout<<"Enter cost of item: ";
      cin>>cost;
- }
-
- void item::putdata()
- {
-     cout<<"Item Number: "<<number<<endl;
-     cout<<"Item Price: "<<cost<<endl;
  }
  
  int main(){
