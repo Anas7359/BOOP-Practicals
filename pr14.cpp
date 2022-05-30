@@ -17,8 +17,8 @@ class convert{
 			kilometer = cm/100000;
 		}
 		void display(){
-			cout<<"Inches: "<<endl;
-			cout<<"feet: "<<endl;
+			cout<<"Inches: "<<inch<<endl;
+			cout<<"feet: "<<feet<<endl;
 			cout<<"Meter: "<<meter<<endl;
 			cout<<"Kilometer: "<<kilometer<<endl;
 		}
