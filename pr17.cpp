@@ -15,7 +15,7 @@ class spi_compare{
 		{
 			for(i=0; i<10; i++)
 			{
-				cout<<"SPI of Student "<<i<<" is: "<<spi[i]<<endl;
+				cout<<"SPI of Student "<<i+1<<" is: "<<spi[i]<<endl;
 			}
 		}
 		void check(){
